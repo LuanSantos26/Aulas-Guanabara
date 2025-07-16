@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to right,#02735E, #038C3E  );/* Gradiente de fundo da página */
+}
+main{
+    background-color: white; /* Cor de fundo do elemento principal */
+    border-radius: 10px; /* Arredondamento dos cantos do elemento principal */
+    box-shadow: 5px 5px 15px #03215a; /* Sombra do elemento principal */
+    width: 600px; /* Largura do elemento principal */
+    padding: 10px;/* Espaçamento interno do elemento */
+    margin: 0 auto; /* Centraliza o elemento na página */
+}
+
+h1{
+    color: #0CF25D; /* Cor do texto do título */
+    text-align: center; /* Centraliza o texto do título */
+    text-shadow: 1px 1px 2px #01270ec7; /* Sombra do texto do título */
+}
+
+h2{
+    color:  #034159; /* Cor do texto do subtítulo */
+}
+
+p{
+    text-align: justify;/* Justify text alignment  serve para deixar o texto alinhado nas duas extremidades */
+}
+
+      
