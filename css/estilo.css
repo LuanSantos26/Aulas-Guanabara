@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/*
+
+Estilos para o corpo da página
+em html é id  = em css é #id
+em html é class = em css é .class
+Estilos para o título principal
+
+*/
+body {
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(4, 109, 0);
+}
+
+#principal {
+    text-align: center;
+    background-color: rgb(4, 109, 0);
+    color: white;
+}
+
+h2 {
+    color: rgb(73, 109, 71);
+}
