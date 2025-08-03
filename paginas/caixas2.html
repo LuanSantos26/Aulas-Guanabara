@@ -4,26 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white ;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(165, 165, 165);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+    </style>
 </head>
 <body>
-    <div>
-        <div id="cabecalho">
-            <h1>
+   <header> <!--header é o cabeçalho -->
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
 
-            </h1>
-        </div>
-        <div id="menu">
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main> <!--conteudo principal fica dentro da main -->
 
-        </div>
-        <div id="conteudo">
+        <section id="assuntos"><!--Agrupa conteúdos relacionados que têm propósito específico. -->
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article><!--Conteúdo independente e autoexplicativo, como posts de blog ou notícias.-->
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste perferendis rem vitae dolor quis ab ipsum architecto odit enim? Sapiente tempore obcaecati quisquam perspiciatis corrupti laudantium magnam adipisci laboriosam dignissimos. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima quasi quia illo dolore eaque consectetur, provident cupiditate quae dicta ipsum adipisci alias nostrum eius veritatis numquam repellendus voluptatem deleniti at?</p>
+                <aside> <!--Conteúdo lateral, geralmente complementar ao principal, como barras laterais.-->
+                    <p>Artigo escrito por Luan Feitosa Santos</p>
+                </aside>
+            </article>
+            <article>
 
-        </div>
-        <div id="rodape">
+            </article>
 
-        </div>
-    
-
-    </div>
-    
+        </section>
+    </main>
+    <footer><!-- Rodapé de uma página ou seção — inclui créditos, links extras, copyright etc.-->
+        Desenvolvido acompanhando O Curso Em Video
+    </footer>
 </body>
 </html>
